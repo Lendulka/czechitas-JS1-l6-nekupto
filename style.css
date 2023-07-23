@@ -1,3 +1,23 @@
 nav .active {
   color: black;
 }
+
+.card-title {
+  max-width: 100%;
+}
+
+.card {
+  user-select: none;
+}
+
+@media screen and (min-width: 576px) {
+  .card-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .card-title {
+    font-size: 2rem;
+  }
+}
